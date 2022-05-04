@@ -1,6 +1,6 @@
 {
-  "name": "Explorug",
-  "short_name": "Explorug",
+  "name": "PWA test",
+  "short_name": "PWA test",
   "icons": [
     {
       "src": "favicons/maskable_icon.png",
