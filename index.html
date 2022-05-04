@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicons/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="PWA " />
+    
+    <title>Test page for PWA</title>
+
+    <link rel="manifest" href="./manifest.json" />
+   
+    <script>
+      window.addEventListener("load", () => {
+        navigator.serviceWorker
+          .register("./worker.js")
+          .then((_) => console.log("Registered service worker"))
+          .catch((e) => console.log("Error registering: ", e));
+      });
+    </script>
+  </head>
+
+  <body>
+    <h1>This is just a test page for making Progrssive Web App </h1>
+    <h2> <i> from a simple HTML file, worker.js, Manifest.json and favicons </i> </h2>
+    </iframe>
+  </body>
+</html>

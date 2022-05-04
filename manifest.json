@@ -1,0 +1,43 @@
+{
+  "name": "Explorug",
+  "short_name": "Explorug",
+  "icons": [
+    {
+      "src": "favicons/maskable_icon.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicons/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicons/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "favicons/logo256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "favicons/logo384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "favicons/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "theme_color": "#6dbd47",
+  "background_color": "#dedede",
+  "display": "standalone",
+  "orientation": "landscape",
+  "scope": "./",
+  "start_url": "./"
+}
